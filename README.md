@@ -16,19 +16,26 @@ mysql  Ver 14.14 Distrib 5.5.52, for debian-linux-gnu (x86_64) using readline 6.
 Ferramenta de compilação Maven, se não, verifique [maven instruções](https://maven.apache.org/install.html)
 Para verificar a instalação do Maven, execute o seguinte comando na linha de comando:
 ```
+$ wsl mvn --version
+
+Apache Maven 3.6.3
+Maven home: /usr/share/maven
+Java version: 11.0.9.1, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "4.4.0-19041-microsoft", arch: "amd64", family: "unix"
+
 $ mvn --version
-Apache Maven 2.2.1 (rdebian-14) # sample output
-Java version: 1.8.0_101
-Java home: /usr/lib/jvm/java-8-oracle/jre
-Default locale: en_US, platform encoding: UTF-8
-OS name: "linux" version: "3.16.0-38-generic" arch: "amd64" Family: "unix"
+Maven home: C:\M2\bin\..
+Java version: 1.8.0_261, vendor: Oracle Corporation, runtime: C:\Java\jdk1.8.0_261\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 ```
 Para iniciar este exemplo, execute os comandos listados abaixo.
 
 Clone o repositório de github.com para a pasta do seu espaço de trabalho:
 
 ```
-$ git clone git@github.com:anychart-integrations/java-spring-hibernate-mysql-template.git <<Nome do seu projeto>>
+$ git clone https://github.com/jrkaibro/java-web-tempalte.git <<Nome do seu projeto>>
 ```
 
 Navegue até a pasta do repositório:
