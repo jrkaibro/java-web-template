@@ -1,5 +1,5 @@
 # Instruções
-[<img src="https://sistema.wvetro.com.br/wvetro/download/knetapp.jpg" width="100px" alt="KnetApp Solution - Creative Software">](https://www.knetapp.com.br) - Soluções creativa para Software web/mobile/iot
+[<img src="logo.jpg" width="100px" alt="KnetApp Solution - Creative Software">](https://www.knetapp.com.br) - Soluções creativa para Software web/mobile/iot
 # Template de incialização em JAVA
 
 Este exemplo mostra como executar a linguagem de programação Java usando Maven, Spring MVC, Hibernate e MySQL.
