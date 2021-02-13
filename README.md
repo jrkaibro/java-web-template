@@ -56,27 +56,27 @@ Seu nome de projeto /
             java/
                 com.knetapp/
                     controllers/
-                        PageController.java # Web controller
+                        PageController.java     # Controle de acesso web
                     dao/
-                        FruitDAO.java   # Data access object
+                        TechnologyDAO.java      # Acesso ao objetos de dados 
                     models/
-                        Fruit.java      # Data model
+                        Technology.java         # Modelo de dados
                 resources
-                    hibernate.cfg.xml   # Hibernate settings file
+                    hibernate.cfg.xml           # Arquivo de configuração do Hibernate
                 webapp/
                     resources/
                         css/
-                            style.css   # css styles
+                            style.css           # css styles
                     WEB-INF/
                         views/
-                            index.jsp   # html template
-                    applicationContext.xml  # Spring main settings file
-                    mvc-dispatcher-servlet.xml  # Spring web settings
-                    web.xml             # Main web settings
-        test/       # Folder for your tests
+                            index.jsp           # Template HTML
+                    applicationContext.xml      # Arquivo de configurações principais do Spring
+                    mvc-dispatcher-servlet.xml  # Configurações da web do Spring
+                    web.xml                     # Configurações principais da web
+        test/       # Testes
     .gitignore
-    database_backup.sql     # use this file to set your MySQL database
-    pom.xml     # project dependencies
+    database.sql     # Script de de criação do banco dados, acesso, tabela e dados
+    pom.xml     # Dependencias Maven no projeto
     README.md
 ```
 
