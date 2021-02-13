@@ -40,7 +40,7 @@ $ git clone https://github.com/jrkaibro/java-web-tempalte.git <<Nome do seu proj
 
 Navegue até a pasta do repositório:
 ```
-$ cd template-java-spring-hibernate-mysql
+$ cd <<Nome do seu projeto>>
 ```
 
 Configure o banco de dados MySQL, use os sinalizadores -u -p para fornecer seu nome de usuário e senha:
