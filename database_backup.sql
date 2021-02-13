@@ -19,7 +19,7 @@ LANGUAGE SQL
     );
     SET data_present = (SELECT COUNT(*) FROM technology);
     IF data_present = 0 THEN
-      INSERT INTO fruits (name, value) VALUES
+      INSERT INTO technology (name, value) VALUES
         ('Java', 10),
         ('Genexus', 20),
         ('Flutter', 15),
