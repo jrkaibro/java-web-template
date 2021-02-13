@@ -35,7 +35,7 @@ Para iniciar este exemplo, execute os comandos listados abaixo.
 Clone o repositório de github.com para a pasta do seu espaço de trabalho:
 
 ```
-$ git clone https://github.com/jrkaibro/java-web-tempalte.git <<Nome do seu projeto>>
+$ git clone https://github.com/jrkaibro/java-web-template.git <<Nome do seu projeto>>
 ```
 
 Navegue até a pasta do repositório:
